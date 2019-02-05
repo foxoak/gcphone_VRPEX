@@ -7,6 +7,6 @@ original git
 https://github.com/N3MTV/gcphone
 
 
-it's important edit the file [vrp]\vrp\client\base.lua
+**it's important edit the file [vrp]\vrp\client\base.lua
 
-at the end of the file, comment on this line: NetworkSetTalkerProximity(proximity+0.0001)
+**at the end of the file, comment on this line: NetworkSetTalkerProximity(proximity+0.0001)
