@@ -71,10 +71,10 @@
           }
         },
         {
-          "title": "Appeler le standard",
-          "eventName": "gcphone:autoCallNumber",
+          "title": "EMS",
+          "eventName": "vrp_addons_gcphone:call",
           "type": {
-            "number": "911"
+            "number": "ambulance"
           }
         }
       ]
