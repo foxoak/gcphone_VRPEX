@@ -10,5 +10,5 @@ AddEventHandler('vrp_addons_gcphone:startCall', function (number, message, coord
   local user_id = vRP.getUserId({source})
 
   vRPclient.notify(source,{"Seu chamado foi solicitado a um "..number})
-  vRP.sendServiceAlert{(source,number,coords.x,coords.y,coords.z,message})
+  vRP.sendServiceAlert({source,number,coords.x,coords.y,coords.z,message})
 end)
