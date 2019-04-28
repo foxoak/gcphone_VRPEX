@@ -13,7 +13,3 @@ working call/messages/services
 start mysql-async
 start gcphone
 start vrp_addons_gcphone
-
-**it's important edit the file [vrp]\vrp\client\base.lua**
-
-**at the end of the file, comment on this line: NetworkSetTalkerProximity(proximity+0.0001)**
