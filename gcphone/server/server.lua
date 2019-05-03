@@ -1,13 +1,7 @@
 local Tunnel = module("vrp", "lib/Tunnel")
 local Proxy = module("vrp", "lib/Proxy")
 
-vRPgc = {}
 vRP = Proxy.getInterface("vRP")
-vRPclient = Tunnel.getInterface("vRP")
-Tunnel.bindInterface("gcPhone",vRPgc)
-
-
-
 
 --====================================================================================
 -- #Author: Jonathan D @Gannon

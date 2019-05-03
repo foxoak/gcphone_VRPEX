@@ -67,14 +67,14 @@
           "title": "Envoyer un message",
           "eventName": "vrp_addons_gcphone:call",
           "type": {
-            "number": "police"
+            "number": "police.service"
           }
         },
         {
-          "title": "Appeler le standard",
-          "eventName": "gcphone:autoCallNumber",
+          "title": "EMS",
+          "eventName": "vrp_addons_gcphone:call",
           "type": {
-            "number": "911"
+            "number": "ems.service"
           }
         }
       ]

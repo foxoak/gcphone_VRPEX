@@ -53,6 +53,7 @@ client_script {
 	"client/photo.lua",
 	"client/app_tchat.lua",
 	"client/bank.lua",
+	"vrp/client.lua"
 }
 
 server_script {
@@ -61,4 +62,5 @@ server_script {
 	"config.lua",
 	"server/server.lua",
 	"server/app_tchat.lua",
+	"vrp/server.lua"
 }
